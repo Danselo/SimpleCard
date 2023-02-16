@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+body{
+    background-color: black;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 20px;
+    margin: 3rem 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-header{
+    display: flex;
+    justify-content: center;
+}
+
+.card-header-background{
+    object-fit: cover;
+    width: 100%;
+    display: block;
+    height: 250px;
+}
+.card-header-paragraph{
+    text-align: center;
+    color: rgb(12, 12, 5);
+}
+.card-header-perfil-image{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 180px;
+    border-radius: 20rem;
+}
+.card_content{
+    flex-direction: column;
+    padding-bottom: 1rem;
+    
+}
+.card_content_title{
+    text-align: center;
+    padding-top: 5.8rem;
+    font-weight: 700;
+}
+.card_content_paragraph{
+    text-align: center;
+}
+.card_footer{
+    background-color: rgba(0, 0, 0, 0.918);
+    color: rgb(255, 255, 255);
+    height: 5.7rem;
+    padding-top: 1rem;
+}
+.card_footer_title{
+    text-align: center;
+    font-size: 1rem;
+}
+.card_footer_icons{
+    padding-top: 10px;
+    display: flex;
+    justify-content:center;
+}
+.icons{
+    width: 20px;
+    height: 20px;
+    margin: 0 9px;
+}
